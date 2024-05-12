@@ -1,0 +1,158 @@
+*{margin: 0; padding: 0; list-style-type: none;}
+a{text-decoration: none; display: block;}
+
+body{
+    width: 1000px;
+    height: 650px;
+    color: #333;
+    background-color: #fff;
+}
+
+.top{
+    width: 200px;
+    height: 650px;
+    float: left;
+}
+
+.logo1{
+    width: 200px;
+    height: 100px;
+    background-color: yellowgreen;
+}
+
+.logo1 a{
+    width: 200px;
+    height: 40px;
+    padding: 30px 0;
+}
+
+.logo1 img{
+    width: 200px;
+    height: 40px;
+}
+
+.menu1{
+    width: 200px;
+    height: 550px;
+    background-color: aqua;
+}
+
+.main{
+    width: 200px;
+    height: 160px;
+}
+
+.main>li>a{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgb(72, 144, 0);
+}
+
+.sub>li>a{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.sub{
+    display: none;
+}
+
+.main>li:hover>a{
+    background-color: rgb(238, 238, 86);
+    color: #fff;
+}
+
+.sub>li:hover>a{
+    background-color: rgb(105, 105, 56);
+    color: #fff;
+}
+
+.body_right{
+    width: 800px;
+    height: 650px;
+    float: left;
+}
+
+.imgslide{
+    width: 800px;
+    height: 350px;
+    position: relative;
+}
+
+.imgslide li{
+    width: 800px;
+    height: 350px;
+    position: absolute;
+}
+
+.content{
+    width: 800px;
+    height: 200px;
+}
+
+.nogal{
+    width: 250px;
+    height: 200px;
+    float: left;
+    background-color: pink;
+}
+
+.banner{
+    width: 250px;
+    height: 200px;
+    float: left;
+    background-color: rgb(216, 92, 113);
+}
+
+.sc{
+    width: 300px;
+    height: 200px;
+    float: left;
+    background-color: rgb(114, 50, 61);
+}
+
+.bottom{
+    width: 800px;
+    height: 100px;
+}
+
+.logo2{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: aquamarine;
+}
+
+.logo2 a{
+    width: 200px;
+    height: 40px;
+    padding: 30px 0;
+}
+
+.logo2 img{
+    width: 200px;
+    height: 40px;
+}
+
+.bottom_right{
+    width: 600px;
+    height: 100px;
+    float: left;
+    background-color: burlywood;
+}
+
+.menu2{
+    width: 600px;
+    height: 50px;
+    background-color: darkgoldenrod;
+}
+.copy{
+    width: 600px;
+    height: 50px;
+    background-color: rgb(111, 95, 54);
+}
